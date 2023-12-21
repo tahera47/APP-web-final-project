@@ -1,0 +1,99 @@
+html , body {
+    margin: 0;
+    padding: 0; 
+    display: block;
+}
+nav {
+    background-color: #1d4043;
+    text-align: center;
+    display:flex;
+    justify-content: right;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right:0;
+    padding-left:0;
+    width: 70px;
+    margin: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+} 
+nav a:hover::after,
+nav a:focus::after {
+    opacity: 1;
+}
+   
+
+
+nav a::after {
+    content: "";
+    height: 4px;
+    margin-top: 2px;
+    margin-bottom: -8px;
+    width: 100%;
+    background-color: #ffb703;
+    display: block;
+    left: 0%;
+    bottom: -8px;
+    opacity: 0;
+    transition: all 0.2s;
+    pointer-events: none;
+}
+body {
+    background-image: url(https://media2.giphy.com/media/U3qYN8S0j3bpK/giphy.webp?cid=ecf05e47le754h9dofns7f7956u94x97111e65u5c0gnubnr&ep=v1_gifs_search&rid=giphy.webp&ct=g);    
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Geologica', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Lexend', sans-serif;
+    font-family: 'Lobster', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    width: 100%;
+}
+main {
+    width: 800px;
+    background-color: white;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 0px;
+    border-radius: 20px;
+}
+.sub {
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    color: #1d4043;
+}
+.thankyou {
+    margin-top: 0px;
+    padding-top: 50px;
+    text-align: center;
+}
+audio {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-bottom: 20px;
+}
+h1 {
+    text-align: center;
+    color: #1d4043;
+    margin-top: 0px;
+    padding-top: 50px;
+}
+.thankyou {
+    margin-top: 0%;
+    padding-top: 50px;
+}
+
