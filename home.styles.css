@@ -57,6 +57,9 @@ body {
     font-family: 'Lobster', sans-serif;
     font-family: 'Ubuntu', sans-serif;
     display: block;
+    max-width: 800px;
+    min-width: 300px;
+    box-sizing: border-box;
 
 }
 .main {
